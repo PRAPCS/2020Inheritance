@@ -12,6 +12,8 @@ class Main {
    snake s = new snake("Ka","red");
    System.out.println(s);
 
-
+   puppy pu= new puppy("Doggo",4,2);
+   System.out.println(pu);
+   System.out.println(pu.getName());
   }
 }
